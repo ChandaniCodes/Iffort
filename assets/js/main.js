@@ -22,6 +22,6 @@ $(".owl-carousel").owlCarousel({
 });
 // script for navbar (on scroll)
 $(window).on("scroll", function () {
-  if ($(window).scrollTop()) $("nav").addClass("puuple");
-  else $("nav").removeClass("puuple");
+  if ($(window).scrollTop()) $("nav").addClass("purple");
+  else $("nav").removeClass("purple");
 });
